@@ -1,0 +1,12 @@
+{
+  "name": "cine-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cinema.js",
+  "scripts": {
+    "start": "node cinema.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

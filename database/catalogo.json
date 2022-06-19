@@ -1,0 +1,26 @@
+[
+  {
+    "codigo": 1,
+    "titulo": "Avatar",
+    "duracao": 160,
+    "atores": "Zoe Saldaña e Sam Worthington",
+    "anoDeLancamento": "18 de dezembro de 2009",
+    "emCartaz": false
+  },
+  {
+    "codigo": 2,
+    "titulo": "The Batman",
+    "duracao": 177,
+    "atores": "Robert Pattinson e Zoe Kravitz",
+    "anoDeLancamento": "3 de março de 2022",
+    "emCartaz": true
+  },
+  {
+    "codigo": 3,
+    "titulo": "Um Lugar Silencioso",
+    "duracao": 90,
+    "atores": "John Krasinski e Emilly Blunt",
+    "anoDeLancamento": "5 de abril de 2018",
+    "emCartaz": false
+  }
+]
