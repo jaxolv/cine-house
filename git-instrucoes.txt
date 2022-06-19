@@ -73,3 +73,36 @@ git push -u <branch>
     enfim aqui será feito o repositório de fato com todas as instruções e configurações realizadas à princípio.
 }
 
+git branch <novaBranch>
+{
+    criando nova branch para incluir novo arquivo, neste caso.
+}
+
+git checkout <novaBranch>
+{
+    trocando de branchs. Usar 'git branch' para checar se as branchs foram de fato trocadas em seguida.
+}
+
+git add .
+{
+    para incluir mudanças feitas.
+}
+
+git commit -m <novoComentário>
+{
+    nova commit feita com comentário atualizado do que foi realizado.
+}
+
+git log
+{
+    para conferir quais mudanças foram feitas na commit e em qual branch.
+}
+
+git push -u <novaBranch>
+{
+    atualizações foram uploadadas no repositório.
+}
+
+obs.: {
+    qualquer alteração básica seguirá estas instruções listadas.
+}
