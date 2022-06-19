@@ -1,0 +1,108 @@
+git config --list
+{
+    para conferir todos os dados que serão necessários para estabelecer conexão do código com o git.
+
+    em caso de não haver, crie um novo username através de
+    {
+        git config --global user.name "<username>"
+    }
+    em caso de não haver, crie um novo e-mail através de
+    {
+        git config --global user.email <email>
+    }
+
+    lembrando que ambos devem estar de acordo com a sua conta no GitHub (neste caso)
+}
+
+git init
+{
+    para iniciar.
+}
+
+git status
+{
+    conferir quais arquivos estão aptos para incluir no commit.
+}
+
+git add . 
+{
+    adicionar todos os arquivos no commit.
+}
+
+git status
+{
+    (opcional)
+    conferir se todos entraram.
+}
+
+git checkout -b <branch>
+{
+    criando uma nova branch e migrando para a mesma imediatamente. por recomendação e boas práticas, a branch principal deverá se chamar 'main'.
+}
+
+git branch
+{
+    (opcional)
+    nova branch ainda não criada, portanto ainda não irá aparecer nada, apenas depois do commit.
+}
+
+git commit -m <comentário>
+{
+    opcional: -m <comentário>
+    irá fazer o commit na branch 'main', porém ainda não há relacação com o repositório.
+    comentário é entendido como uma boa prática.
+}
+
+git branch
+{
+    (opcional) agora sim haverá a branch 'main'.
+}
+
+git log
+{
+    será possível ver todos os commit com todos os dados de sua criação.
+}
+
+git remote add origin <endereço>
+{
+    estabelecerá uma relação entre este código com o endereço no qual você deseja criar o repositório. <endereço>: neste caso, será 'https://github.com/jaxolv/cine-house.git', sem aspas.
+}
+
+git push -u <branch>
+{
+    enfim aqui será feito o repositório de fato com todas as instruções e configurações realizadas à princípio.
+}
+
+git branch <novaBranch>
+{
+    criando nova branch para incluir novo arquivo, neste caso.
+}
+
+git checkout <novaBranch>
+{
+    trocando de branchs. Usar 'git branch' para checar se as branchs foram de fato trocadas em seguida.
+}
+
+git add .
+{
+    para incluir mudanças feitas.
+}
+
+git commit -m <novoComentário>
+{
+    nova commit feita com comentário atualizado do que foi realizado.
+}
+
+git log
+{
+    para conferir quais mudanças foram feitas na commit e em qual branch.
+}
+
+git push -u <novaBranch>
+{
+    atualizações foram uploadadas no repositório.
+}
+
+obs.: {
+    qualquer alteração básica seguirá estas instruções listadas.
+}
